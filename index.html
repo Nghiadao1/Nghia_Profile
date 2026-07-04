@@ -1,24 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Playable Ads Developer | Trọng Nghĩa</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Game Developer | Đào Trọng Nghĩa</title>
+    <link rel="icon" href="Icos/Gamepad.ico" type="image/x-icon">
+    <link rel="stylesheet" href="overlay.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="projectstyle.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="modalprojectstyle.css">
+    <link rel="stylesheet" href="modalaboutstyle.css">
+    <link rel="stylesheet" href="modalcontactstyle.css">
+    <link rel="stylesheet" href="hover.css">
+    <link rel="stylesheet" href="divider.css">
 </head>
+
 <body>
-    <header>
-        <h1>Trọng Nghĩa</h1>
-        <h2>Playable Ads Developer</h2>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="https://www.facebook.com/aotrongnghia.630881" target="_blank">Facebook</a></li>
-            <li><a href="https://github.com/Nghiadao1" target="_blank">GitHub</a></li>
-        </ul>
-    </nav>
-    <footer>
-        © 2026 - Trọng Nghĩa | All rights reserved. Connect with me on <a href="https://www.facebook.com/aotrongnghia.630881" target="_blank" rel="noopener noreferrer">Facebook</a>. GIFs sourced from <a href="https://giphy.com/" target="_blank" rel="noopener noreferrer">Giphy.com</a>. <br> Design inspired by <a href="https://jfortunatojr.com/" target="_blank" rel="noopener noreferrer">João Fortunato Jr's Portfolio</a>.
-    </footer>
+
+    <!-- Scripts -->
+    <script src="Script/header.js"></script>
+    <script src="Script/overlay.js"></script>
+    <script src="Script/modalproject.js"></script>
+    <script src="Script/project.js"></script>
+    <script src="Script/paralax.js"></script>
+
+    <!-- Initial overlay -->
+    <div id="overlay">
+
+        <!-- Header -->
+        <header class="parallax">
+            <div class="header-bg">
+
+                <!-- Profile Image -->
+                <div class="header-image-container" ontouchstart="changeHeaderImage('Images/Profile2.png')"
+                    ontouchend="returnHeaderImage('Images/Profile.png')">
+                    <img class="header-image" id="header-image" src="Images/Profile.png" alt="Your Photo"
+                        onmouseover="changeHeaderImage('Images/Profile2.png')"
+                        onmouseout="returnHeaderImage('Images/Profile.png')">
+                </div>
+                <h1 style="font-size: 25px; margin-top: 6px">Đào Trọng Nghĩa</h1>
+                <p style="font-size: 19px; margin-top: -10px">Game Developer</p>
+
+                <!-- Social Icons -->
+                <!-- <div class="social-icons">
+                    <a href="https://github.com/nghiadao200502" target="_blank" class="social-icon github"
+                        style="margin-left: 6px">
+                        <img src="Images/Git.png" alt="Github">
+                    </a>
+                </div> -->
+
+                <!-- Nav Bar -->
+                <div class="nav-container">
+                    <nav>
+                        <a href="#about-me" onclick="openModalAbout('about')">ABOUT ME</a>
+                        <a href="#projects">PROJECTS</a>
+                        <a href="#contact" onclick="openModalContact('contact')">CONTACT</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!-- Horizontal white strip -->
+        <div class="horizontal-divider"></div>
+
+        <!-- Projects -->
+        <section id="projects" class="projects-paralax">
+
+            <!-- Project Satis V25 -->
+            <div class="project" ontouchstart="changeImage('satis_v25', 'Images/Satis_V25.png')"
+                ontouchend="returnImage('satis_v25', 'Images/Satis_V25.png')">
+                <img src="Images/Satis_V25.png" id="satis_v25" onclick="openModal('satis_v25')"
+                    onmouseover="changeImage('satis_v25', 'Images/Satis_V25.png')"
+                    onmouseout="returnImage('satis_v25', 'Images/Satis_V25.png')">
+                <div class="project-content">
+                    <p>
+                        <span class="tag">Cocos Creator</span>
+                        <span class="tag">Typescript</span>
+                        <span class="tag">Playable Ads</span>
+                        <span class="tag">2D</span>
+                    </p>
+                    <p style="font-size:18px">
+                        <strong>Satis V25</strong> is a satisfying organization mini-game where players tidy up and sort objects to relieve stress.
+                    </p>
+                    <div class="contributions">
+                        <strong>CONTRIBUTIONS:</strong>
+                        <br></br>
+                        <li><strong>Playable Ads Development</strong></li>
+                        <li><strong>Core Game Logic & Systems</strong></li>
+                        <li><strong>UI/UX Programming</strong></li>
+                        <li><strong>Performance Optimization</strong></li>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Satis V28 -->
+            <div class="project" ontouchstart="changeImage('satis_v28', 'Images/Satis_V28.png')"
+                ontouchend="returnImage('satis_v28', 'Images/Satis_V28.png')">
+                <img src="Images/Satis_V28.png" id="satis_v28" onclick="openModal('satis_v28')"
+                    onmouseover="changeImage('satis_v28', 'Images/Satis_V28.png')"
+                    onmouseout="returnImage('satis_v28', 'Images/Satis_V28.png')">
+                <div class="project-content">
+                    <p>
+                        <span class="tag">Cocos Creator</span>
+                        <span class="tag">Typescript</span>
+                        <span class="tag">Playable Ads</span>
+                        <span class="tag">2D</span>
+                    </p>
+                    <p style="font-size:18px">
+                        <strong>Satis V28</strong> is an engaging puzzle level focused on sorting and arranging items in a neat, satisfying order.
+                    </p>
+                    <div class="contributions">
+                        <strong>CONTRIBUTIONS:</strong>
+                        <br></br>
+                        <li><strong>Playable Ads Development</strong></li>
+                        <li><strong>Gameplay Mechanics & Physics</strong></li>
+                        <li><strong>UI & Particle Effects Integration</strong></li>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Satis V35 -->
+            <div class="project" ontouchstart="changeImage('satis_v35', 'Images/Satis_V35.png')"
+                ontouchend="returnImage('satis_v35', 'Images/Satis_V35.png')">
+                <img src="Images/Satis_V35.png" id="satis_v35" onclick="openModal('satis_v35')"
+                    onmouseover="changeImage('satis_v35', 'Images/Satis_V35.png')"
+                    onmouseout="returnImage('satis_v35', 'Images/Satis_V35.png')">
+                <div class="project-content">
+                    <p>
+                        <span class="tag">Cocos Creator</span>
+                        <span class="tag">Typescript</span>
+                        <span class="tag">Playable Ads</span>
+                        <span class="tag">2D</span>
+                    </p>
+                    <p style="font-size:18px">
+                        <strong>Satis V35</strong> is a challenging sorting and packing puzzle where players must organize messy spaces efficiently.
+                    </p>
+                    <div class="contributions">
+                        <strong>CONTRIBUTIONS:</strong>
+                        <br></br>
+                        <li><strong>Playable Ads Development</strong></li>
+                        <li><strong>3D/2D Interactions & Mechanics</strong></li>
+                        <li><strong>Memory & Performance Optimization</strong></li>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Horizontal white strip -->
+        <div class="horizontal-divider"></div>
+
+        <!-- Project information modal -->
+        <div id="myModal" class="modal">
+            <div id="modal-c" class="modal-content">
+                <div id="modalContent"></div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer-container">
+            © 2026 - Đào Trọng Nghĩa.<br>
+            Original Design by <a href="https://github.com/muriloglasser/portfolio-template/">Murilo Glasser</a>
+        </footer>
+
+    </div>
+
+    <!-- Smooth scroll script -->
+    <script src="Script/smoothscroll.js"></script>
+
 </body>
+
 </html>
