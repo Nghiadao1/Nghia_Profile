@@ -259,7 +259,7 @@ function getProjectContent(projectId) {
                             </div>
                             </div>
 
-                            <div class="description-bg">
+                            <div class="description-bg" style="padding-bottom: 40px; margin-bottom: 35px;">
                                 <div class="project-description">
                                     <p>A fast-paced matching game where players tap to blast cars and clear traffic blocks.</p>
                                 </div>
@@ -286,7 +286,7 @@ function getProjectContent(projectId) {
                             </div>
                             </div>
 
-                            <div class="description-bg">
+                            <div class="description-bg" style="padding-bottom: 40px; margin-bottom: 35px;">
                                 <div class="project-description">
                                     <p>A cute physics puzzle where you stack adorable cats to reach target heights.</p>
                                 </div>
@@ -313,7 +313,7 @@ function getProjectContent(projectId) {
                             </div>
                             </div>
 
-                            <div class="description-bg">
+                            <div class="description-bg" style="padding-bottom: 40px; margin-bottom: 35px;">
                                 <div class="project-description">
                                     <p>A fast-paced sorting simulator where players serve and mix coffee recipes.</p>
                                 </div>
@@ -340,7 +340,7 @@ function getProjectContent(projectId) {
                             </div>
                             </div>
 
-                            <div class="description-bg">
+                            <div class="description-bg" style="padding-bottom: 40px; margin-bottom: 35px;">
                                 <div class="project-description">
                                     <p>A relaxing puzzle game where players merge crops to harvest their dream farm.</p>
                                 </div>
@@ -367,7 +367,7 @@ function getProjectContent(projectId) {
                             </div>
                             </div>
 
-                            <div class="description-bg">
+                            <div class="description-bg" style="padding-bottom: 40px; margin-bottom: 35px;">
                                 <div class="project-description">
                                     <p>A classic color-sorting puzzle game where players arrange colorful drinks.</p>
                                 </div>
@@ -394,7 +394,7 @@ function getProjectContent(projectId) {
                             </div>
                             </div>
 
-                            <div class="description-bg">
+                            <div class="description-bg" style="padding-bottom: 40px; margin-bottom: 35px;">
                                 <div class="project-description">
                                     <p>A calming sorting game where players unthread and organize colorful yarn.</p>
                                 </div>
@@ -421,7 +421,7 @@ function getProjectContent(projectId) {
                             </div>
                             </div>
 
-                            <div class="description-bg">
+                            <div class="description-bg" style="padding-bottom: 40px; margin-bottom: 35px;">
                                 <div class="project-description">
                                     <p>A satisfying compilation of relaxing daily tidying and organization mini-games.</p>
                                 </div>
@@ -448,7 +448,7 @@ function getProjectContent(projectId) {
                             </div>
                             </div>
 
-                            <div class="description-bg">
+                            <div class="description-bg" style="padding-bottom: 40px; margin-bottom: 35px;">
                                 <div class="project-description">
                                     <p>A challenging 3D mechanical puzzle where players strategically unscrew bolts.</p>
                                 </div>
@@ -475,7 +475,7 @@ function getProjectContent(projectId) {
                             </div>
                             </div>
 
-                            <div class="description-bg">
+                            <div class="description-bg" style="padding-bottom: 40px; margin-bottom: 35px;">
                                 <div class="project-description">
                                     <p>A fun puzzle game where players guide lost sheep back to their pens safely.</p>
                                 </div>
@@ -502,7 +502,7 @@ function getProjectContent(projectId) {
                             </div>
                             </div>
 
-                            <div class="description-bg">
+                            <div class="description-bg" style="padding-bottom: 40px; margin-bottom: 35px;">
                                 <div class="project-description">
                                     <p>A satisfying packing game where players unpack and organize messy rooms.</p>
                                 </div>
