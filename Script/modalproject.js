@@ -243,16 +243,16 @@ function getProjectContent(projectId) {
                             </div>
 `                   ;
             break;
-        case 'satis_v25':
+        case 'carblast':
             projectContent = `
                         <div class="title-bg">
-                                <h2 class="project-title">Satis V25</h2>
+                                <h2 class="project-title">Car Blast</h2>
                             </div>
 
                             <div class="project-video-BG">
                             <div class="project-video" style="display:flex;justify-content:center;align-items:center;min-height:660px;">
                                 <iframe id="youtubeVideo"
-                                    src="Playables/Satis_V25.html"
+                                    src="Playables/CarBlast.html"
                                     style="width:360px;height:640px;border:none;"
                                     frameborder="0"
                                     allowfullscreen></iframe>
@@ -261,7 +261,7 @@ function getProjectContent(projectId) {
 
                             <div class="description-bg">
                                 <div class="project-description">
-                                    <p>A satisfying organization game level where players tidy up and sort objects to relieve stress.</p>
+                                    <p>A fast-paced matching game where players tap to blast cars and clear traffic blocks.</p>
                                 </div>
                             </div>
 
@@ -270,16 +270,16 @@ function getProjectContent(projectId) {
                             </div>
 `                   ;
             break;
-        case 'satis_v28':
+        case 'catstrack':
             projectContent = `
                         <div class="title-bg">
-                                <h2 class="project-title">Satis V28</h2>
+                                <h2 class="project-title">Cat Stack</h2>
                             </div>
 
                             <div class="project-video-BG">
                             <div class="project-video" style="display:flex;justify-content:center;align-items:center;min-height:660px;">
                                 <iframe id="youtubeVideo"
-                                    src="Playables/Satis_V28.html"
+                                    src="Playables/CatStrack.html"
                                     style="width:360px;height:640px;border:none;"
                                     frameborder="0"
                                     allowfullscreen></iframe>
@@ -288,7 +288,7 @@ function getProjectContent(projectId) {
 
                             <div class="description-bg">
                                 <div class="project-description">
-                                    <p>An engaging sorting puzzle level focused on arranging items in a neat, satisfying order.</p>
+                                    <p>A cute physics puzzle where you stack adorable cats to reach target heights.</p>
                                 </div>
                             </div>
 
@@ -297,16 +297,16 @@ function getProjectContent(projectId) {
                             </div>
 `                   ;
             break;
-        case 'satis_v35':
+        case 'coffeecrayzy':
             projectContent = `
                         <div class="title-bg">
-                                <h2 class="project-title">Satis V35</h2>
+                                <h2 class="project-title">Coffee Crazy</h2>
                             </div>
 
                             <div class="project-video-BG">
                             <div class="project-video" style="display:flex;justify-content:center;align-items:center;min-height:660px;">
                                 <iframe id="youtubeVideo"
-                                    src="Playables/Satis_V35.html"
+                                    src="Playables/CoffeeCrayzy.html"
                                     style="width:360px;height:640px;border:none;"
                                     frameborder="0"
                                     allowfullscreen></iframe>
@@ -315,7 +315,196 @@ function getProjectContent(projectId) {
 
                             <div class="description-bg">
                                 <div class="project-description">
-                                    <p>A challenging sorting and packing puzzle where players must organize messy spaces efficiently.</p>
+                                    <p>A fast-paced sorting simulator where players serve and mix coffee recipes.</p>
+                                </div>
+                            </div>
+
+                            <div class="close">
+                                <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
+                            </div>
+`                   ;
+            break;
+        case 'dreamharvest':
+            projectContent = `
+                        <div class="title-bg">
+                                <h2 class="project-title">Dream Harvest</h2>
+                            </div>
+
+                            <div class="project-video-BG">
+                            <div class="project-video" style="display:flex;justify-content:center;align-items:center;min-height:660px;">
+                                <iframe id="youtubeVideo"
+                                    src="Playables/DreamHarvest.html"
+                                    style="width:360px;height:640px;border:none;"
+                                    frameborder="0"
+                                    allowfullscreen></iframe>
+                            </div>
+                            </div>
+
+                            <div class="description-bg">
+                                <div class="project-description">
+                                    <p>A relaxing puzzle game where players merge crops to harvest their dream farm.</p>
+                                </div>
+                            </div>
+
+                            <div class="close">
+                                <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
+                            </div>
+`                   ;
+            break;
+        case 'drinksort':
+            projectContent = `
+                        <div class="title-bg">
+                                <h2 class="project-title">Drink Sort</h2>
+                            </div>
+
+                            <div class="project-video-BG">
+                            <div class="project-video" style="display:flex;justify-content:center;align-items:center;min-height:660px;">
+                                <iframe id="youtubeVideo"
+                                    src="Playables/DrinkSort.html"
+                                    style="width:360px;height:640px;border:none;"
+                                    frameborder="0"
+                                    allowfullscreen></iframe>
+                            </div>
+                            </div>
+
+                            <div class="description-bg">
+                                <div class="project-description">
+                                    <p>A classic color-sorting puzzle game where players arrange colorful drinks.</p>
+                                </div>
+                            </div>
+
+                            <div class="close">
+                                <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
+                            </div>
+`                   ;
+            break;
+        case 'knitaway':
+            projectContent = `
+                        <div class="title-bg">
+                                <h2 class="project-title">Knit Away</h2>
+                            </div>
+
+                            <div class="project-video-BG">
+                            <div class="project-video" style="display:flex;justify-content:center;align-items:center;min-height:660px;">
+                                <iframe id="youtubeVideo"
+                                    src="Playables/KnitAway.html"
+                                    style="width:360px;height:640px;border:none;"
+                                    frameborder="0"
+                                    allowfullscreen></iframe>
+                            </div>
+                            </div>
+
+                            <div class="description-bg">
+                                <div class="project-description">
+                                    <p>A calming sorting game where players unthread and organize colorful yarn.</p>
+                                </div>
+                            </div>
+
+                            <div class="close">
+                                <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
+                            </div>
+`                   ;
+            break;
+        case 'satisstory':
+            projectContent = `
+                        <div class="title-bg">
+                                <h2 class="project-title">SatisStory</h2>
+                            </div>
+
+                            <div class="project-video-BG">
+                            <div class="project-video" style="display:flex;justify-content:center;align-items:center;min-height:660px;">
+                                <iframe id="youtubeVideo"
+                                    src="Playables/SatisStory.html"
+                                    style="width:360px;height:640px;border:none;"
+                                    frameborder="0"
+                                    allowfullscreen></iframe>
+                            </div>
+                            </div>
+
+                            <div class="description-bg">
+                                <div class="project-description">
+                                    <p>A satisfying compilation of relaxing daily tidying and organization mini-games.</p>
+                                </div>
+                            </div>
+
+                            <div class="close">
+                                <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
+                            </div>
+`                   ;
+            break;
+        case 'screwland_1':
+            projectContent = `
+                        <div class="title-bg">
+                                <h2 class="project-title">Screw Land</h2>
+                            </div>
+
+                            <div class="project-video-BG">
+                            <div class="project-video" style="display:flex;justify-content:center;align-items:center;min-height:660px;">
+                                <iframe id="youtubeVideo"
+                                    src="Playables/ScrewLand_1.html"
+                                    style="width:360px;height:640px;border:none;"
+                                    frameborder="0"
+                                    allowfullscreen></iframe>
+                            </div>
+                            </div>
+
+                            <div class="description-bg">
+                                <div class="project-description">
+                                    <p>A challenging 3D mechanical puzzle where players strategically unscrew bolts.</p>
+                                </div>
+                            </div>
+
+                            <div class="close">
+                                <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
+                            </div>
+`                   ;
+            break;
+        case 'sheepaway':
+            projectContent = `
+                        <div class="title-bg">
+                                <h2 class="project-title">Sheep Away</h2>
+                            </div>
+
+                            <div class="project-video-BG">
+                            <div class="project-video" style="display:flex;justify-content:center;align-items:center;min-height:660px;">
+                                <iframe id="youtubeVideo"
+                                    src="Playables/SheepAway.html"
+                                    style="width:360px;height:640px;border:none;"
+                                    frameborder="0"
+                                    allowfullscreen></iframe>
+                            </div>
+                            </div>
+
+                            <div class="description-bg">
+                                <div class="project-description">
+                                    <p>A fun puzzle game where players guide lost sheep back to their pens safely.</p>
+                                </div>
+                            </div>
+
+                            <div class="close">
+                                <span onclick="closeModal()" target="_blank" class="social-icon quit">&times;</span>
+                            </div>
+`                   ;
+            break;
+        case 'tidymaster_1':
+            projectContent = `
+                        <div class="title-bg">
+                                <h2 class="project-title">Tidy Master</h2>
+                            </div>
+
+                            <div class="project-video-BG">
+                            <div class="project-video" style="display:flex;justify-content:center;align-items:center;min-height:660px;">
+                                <iframe id="youtubeVideo"
+                                    src="Playables/TidyMaster_1.html"
+                                    style="width:360px;height:640px;border:none;"
+                                    frameborder="0"
+                                    allowfullscreen></iframe>
+                            </div>
+                            </div>
+
+                            <div class="description-bg">
+                                <div class="project-description">
+                                    <p>A satisfying packing game where players unpack and organize messy rooms.</p>
                                 </div>
                             </div>
 
