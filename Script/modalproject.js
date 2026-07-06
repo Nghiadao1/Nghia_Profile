@@ -168,7 +168,7 @@ function getProjectContent(projectId) {
                             <div class="description-bg">
                                 <div class="project-description">
                                     <p>
-                                        🕹️ Hey there, I'm <strong>Đào Trọng Nghĩa</strong> (born 20/05/2002), a dedicated Game Developer specializing in Cocos Creator and TypeScript. I have a strong passion for developing high-quality Playable Ads and interactive experiences that captivate users and run smoothly on any mobile device.
+                                        🕹️ Hey there, I'm <strong>Đào Trọng Nghĩa</strong> (born 20/05/2002), a dedicated Game Developer specializing in Luna Engine, Cocos Creator and TypeScript. I have a strong passion for developing high-quality Playable Ads and interactive experiences that captivate users and run smoothly on any mobile device.
                                     </p>
                                     <p>
                                         🚀 I love tackling complex technical optimization challenges, crafting micro-animations, and learning new game tech stacks. If you're looking for a motivated and detail-oriented developer to build engaging web games and ads, let's connect!
